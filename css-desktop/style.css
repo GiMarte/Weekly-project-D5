@@ -49,20 +49,35 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
-#laptop {
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 0;
+}
+
+.container > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: left;
+}
+
+.colonna-immagine img {
+  width: 100%;
   border-radius: 50%;
-  padding-top: 3cm;
-  padding-left: 7cm;
+  display: block;
 }
 
-#container p {
-  display: inline-block;
-  text-align: left;
-}
-
-#container h3 {
-  display: inline-block;
-  text-align: left;
+.colonna-testo h3 {
+  color: #25a2c3;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
 }
 
 .red-box {
