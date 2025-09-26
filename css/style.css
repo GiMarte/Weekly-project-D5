@@ -48,6 +48,7 @@ button {
   color: white;
   font-weight: bold;
   font-size: 1rem;
+  cursor: pointer;
 }
 .first-section {
   padding-top: 2rem;
@@ -84,24 +85,71 @@ h2 {
 }
 
 .red-box section {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
-.red-box section p{
-    padding-top:0
+.red-box section p {
+  padding-top: 0;
 }
 
 #ceo {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
+}
+
+#first-div-img {
+  margin-top: 4rem;
 }
 
 .images img {
-    width: 100%;
+  width: 100%;
 }
 
 .images {
-    border: 1px solid black;
-    margin: 2rem 2rem;
+  border: 1px solid rgba(132, 132, 132, 0.203);
+  margin: 2rem 2rem;
 }
 
+.images p {
+  padding-bottom: 3rem;
+}
 
+div h4 {
+  color: #25a2c3;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+}
+
+footer p {
+  padding: 0;
+}
+
+footer h2 {
+  padding: 2rem;
+}
+
+span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+a {
+  color: white;
+}
+
+footer div {
+    padding: 1rem 0 0 0;
+}
+
+hr {
+  width: 47%;
+}
+
+#copyright {
+    padding: 2rem;
+    padding-bottom: 4rem;
+    font-size: 0.9rem;
+}
