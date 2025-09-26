@@ -1,0 +1,159 @@
+body {
+  background-color: #ffffff;
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header img {
+  width: 40%;
+  padding-top: 1.5rem;
+}
+
+nav {
+  background-color: #000000;
+  padding: 0 0 2rem 0;
+}
+
+header div {
+  background-image: url(/images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2em;
+}
+
+h1 {
+  color: #25a2c3;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 1.5em 2em 0em 2em;
+  text-wrap: balance;
+}
+
+p {
+  padding: 1.5em;
+  line-height: 150%;
+}
+
+button {
+  padding: 1em 2em;
+  border-radius: 5px;
+  background-color: #f04c2f;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.first-section {
+  padding-top: 2rem;
+}
+h3 {
+  color: #25a2c3;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 2rem 2em 0em 2em;
+  text-wrap: balance;
+}
+
+section img {
+  border-radius: 200em;
+  width: 70%;
+}
+
+section p {
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.red-box {
+  background-color: #e22d0e;
+  color: white;
+  margin-top: 4em;
+}
+
+h2 {
+  font-size: 2.3rem;
+  padding: 3rem 0 0 0;
+  font-weight: bold;
+}
+
+.red-box section {
+  padding-bottom: 3rem;
+}
+
+.red-box section p {
+  padding-top: 0;
+}
+
+#ceo {
+  font-size: 0.8rem;
+}
+
+#first-div-img {
+  margin-top: 4rem;
+}
+
+.images img {
+  width: 100%;
+}
+
+.images {
+  border: 1px solid rgba(132, 132, 132, 0.203);
+  margin: 2rem 2rem;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+.images p {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+div h4 {
+  color: #25a2c3;
+  font-weight: bold;
+  padding: 2rem 0 0 0;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  margin-top: 4em;
+  font-size: 0.9em;
+}
+
+footer p {
+  padding: 0;
+}
+
+footer h2 {
+  padding: 2rem;
+}
+
+span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+a {
+  color: white;
+}
+
+footer div {
+  padding: 1rem 0 0 0;
+}
+
+hr {
+  width: 47%;
+}
+
+#copyright {
+  padding: 2rem;
+  padding-bottom: 4rem;
+  font-size: 0.9rem;
+}
