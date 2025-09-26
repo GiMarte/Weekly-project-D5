@@ -4,18 +4,15 @@ body {
   font-size: 1.2rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 0 auto;
-  text-align: center;
 }
 
 header img {
-  width: 40%;
-  padding-top: 1.5rem;
+  width: 20%;
+  padding: 2rem;
 }
 
 nav {
   background-color: #000000;
-  padding: 0 0 2rem 0;
 }
 
 header div {
@@ -24,19 +21,18 @@ header div {
   background-position: center;
   width: 100%;
   height: 100%;
-  padding-bottom: 2em;
+  padding-bottom: 8rem;
+  text-align: center;
 }
 
 h1 {
   color: #25a2c3;
   font-size: 2.2rem;
   font-weight: bold;
-  padding: 1.5em 2em 0em 2em;
-  text-wrap: balance;
+  padding: 6rem 0 0 0;
 }
 
 p {
-  padding: 1.5em;
   line-height: 150%;
 }
 
@@ -50,36 +46,34 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
-.first-section {
-  padding-top: 2rem;
-}
-h3 {
-  color: #25a2c3;
-  font-size: 1.3rem;
-  font-weight: bold;
-  padding: 2rem 2em 0em 2em;
-  text-wrap: balance;
-}
 
-section img {
+main img:first-child{
   border-radius: 200em;
-  width: 70%;
+  padding: 8em 0 0 8em
 }
 
-section p {
-  padding-top: 1rem;
-  padding-bottom: 0;
+.first-section {
+  display: inline;
+  font-size: 1em;
+}
+
+.first-section p,
+h3 {
+  display: inline-block;
+  width: 30%;
 }
 
 .red-box {
   background-color: #e22d0e;
   color: white;
   margin-top: 4em;
+  text-align: center;
+  padding: 0 0 3em 0;
 }
 
-h2 {
-  font-size: 2.3rem;
-  padding: 3rem 0 0 0;
+.red-box h2 {
+  font-size: 1.5rem;
+  padding: 4rem 0 2rem 0;
   font-weight: bold;
 }
 
@@ -126,15 +120,13 @@ footer {
   color: white;
   margin-top: 4em;
   font-size: 0.9em;
+  text-align: center;
 }
 
 footer p {
   padding: 0;
 }
 
-footer h2 {
-  padding: 2rem;
-}
 
 span {
   text-decoration: underline;
@@ -149,11 +141,22 @@ footer div {
 }
 
 hr {
-  width: 47%;
+  width: 15%;
+}
+
+footer h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 3rem 0;
+}
+footer section {
+  width: 20%;
+  margin: 0 auto;
+  text-align: left;
 }
 
 #copyright {
   padding: 2rem;
   padding-bottom: 4rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
