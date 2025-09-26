@@ -47,9 +47,9 @@ button {
   cursor: pointer;
 }
 
-main img:first-child{
+main img:first-child {
   border-radius: 200em;
-  padding: 8em 0 0 8em
+  padding: 8em 0 0 8em;
 }
 
 .first-section {
@@ -127,7 +127,6 @@ footer p {
   padding: 0;
 }
 
-
 span {
   text-decoration: underline;
   cursor: pointer;
@@ -150,7 +149,7 @@ footer h2 {
   padding: 3rem 0;
 }
 footer section {
-  width: 20%;
+  width: 15%;
   margin: 0 auto;
   text-align: left;
 }
